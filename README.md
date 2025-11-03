@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desafio Patriani
 
-## Getting Started
+Este repositório contém a implementação de um **desafio técnico para a posição de Desenvolvedor Frontend**.
+O objetivo é desenvolver uma **página web estática** baseada em um design do **Figma**, utilizando **Next.js**, **Tailwind CSS** e **TypeScript**.
 
-First, run the development server:
+---
+
+## Descrição do Projeto
+
+A aplicação exibe informações sobre um **empreendimento**, incluindo:
+
+* Dados gerais;
+* Localização;
+* Fotos e imagens ilustrativas;
+* Informações complementares.
+
+As **imagens** podem ser **clicadas** para abrir um **modal com a visualização ampliada**.
+
+---
+
+##  Tecnologias Utilizadas
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+---
+
+## Como Executar o Projeto Localmente
 
 ```bash
+# Clone o repositório
+git clone https://github.com/Matheus-TC-Mourao/Patriani-LP.git
+
+# Acesse o diretório
+cd Patriani-LP
+
+# Instale as dependências
+npm install
+
+# Execute o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# O projeto ficará disponível em:
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌎 Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto pode ser acessado online em:
+👉 [Demo](https://seu-projeto.vercel.app)
 
-## Learn More
+---
+## Estrutura de Pastas
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+src
+├── app/
+├── assets/
+├── components/
+│   ├── icons/
+│   ├── layout/
+│   │   ├── dashboard/
+│   │   │   ├── heading/
+│   │   │   ├── infoCards/
+│   │   │   ├── metric/
+│   │   │   └── works/
+│   │   ├── header/
+│   │   │   ├── HeaderStatus.tsx
+│   │   │   ├── HeaderTitle.tsx
+│   │   │   └── page.tsx
+│   │   └── pageHeader/
+│   │       └── page.tsx
+│   └── page.tsx
+│
+├── assets/
+│   └── images/
+│
+├── components/
+│   └── icons/
+│
+├── public/
+└── node_modules/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -6,9 +6,9 @@ import {
   Info,
   InfoCards,
 } from "@/components/layout/dashboard/infoCards/InfoCards";
-import { Dashboard } from "@/components/layout/dashboard/page";
-import { Header } from "@/components/layout/header/page";
-import { PageHeader } from "@/components/layout/pageHeader/page";
+import { Dashboard } from "@/components/layout/dashboard/Dashboard";
+import { Header } from "@/components/layout/header/Header";
+import { PageHeader } from "@/components/layout/pageHeader/PageHeader";
 import {
   ChartContent,
   Metric,

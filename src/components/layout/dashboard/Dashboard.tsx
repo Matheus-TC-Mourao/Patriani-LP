@@ -5,7 +5,7 @@ interface DashboardProps{
 
 export function Dashboard({children}:DashboardProps) {
   return (
-    <main className="flex flex-col w-[1423px] pt-[32px] pb-[64px] pr-[70px] pl-[150px] gap-[24px]">
+    <main className="flex flex-col w-full pt-[32px] pb-[64px] pr-[150px] pl-[70px] gap-[24px]">
 
       {children}
 
